@@ -8,7 +8,10 @@ This Rat API gives you access to multiple Rat Pictures and Rat Facts. Rat Pictur
 
 Currently, this API is not hosted and needs to be run locally. 
 
-To get started download the files above and run app.py by typing `python app.py` in the terminal. 
+To get started download the files above and run app.py by typing `python app.py` in the terminal.
+
+You will need to also download the required packages. 
+`pip install -r requirements.txt` Run this command in the terminal to do so. 
 
 The URL will be http://127.0.0.1:5000/. This will bring you to the home page which explains how to use the API. 
 
