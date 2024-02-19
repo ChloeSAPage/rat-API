@@ -42,6 +42,9 @@ No Authentication needed.
 - Method: GET
 - Response: Rat facts in JSON format. 
 
+## Error Handling
+
+The API returns the appropriate HTTP status code.
 
 
 
