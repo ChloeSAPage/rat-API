@@ -28,7 +28,7 @@ No Authentication needed.
 
 - Endpoint: `/get-rat/<rat-id>`
 - Method: GET
-- Parameters: `rat-id` (required). The number rat you want, max value is Image Amount.
+- Parameters: `rat-id` (required). The number rat you want, max value is Image Amount. Rat IDs under 10 follow this format, 01, 02, 03, 04 etc.
 - Example Request:
 
     ```
