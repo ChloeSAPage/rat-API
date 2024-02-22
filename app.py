@@ -19,7 +19,7 @@ def get_rat(rat_id):
     try:
         return send_file(rat_pic_path, mimetype="image/jpeg"), 200
     except FileNotFoundError:
-        return render_template("error.html", amount=num_rat_pics), 404, {"Description": f"MAX Rat ID is 0{num_rat_pics}"}
+        return render_template("error.html", amount=num_rat_pics), 404, {"Description": f"MAX Rat ID is {num_rat_pics}"}
 
 
 @app.route("/get-pic-amount")
